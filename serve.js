@@ -8,6 +8,7 @@ app.get("/", function (req, res) {
 });
 
 app.use(requestParser.fadabParser);
+app.use(routers.authRouter);
 
 app.use((req, res, next) => {
   res.send("404 NOT FOUND");

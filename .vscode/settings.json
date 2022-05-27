@@ -1,0 +1,12 @@
+{
+  "rest-client.environmentVariables": {
+    "local": {
+      "baseUrl": "http://localhost:5000",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjEsIlVzZXJUeXBlTmFtZSI6IlJvb3QiLCJpYXQiOjE2NTM2MTEwMzIsImV4cCI6MTY1NDIxNTgzMn0.cY3Nr9LOEDn1oW5NbjT_F4tvGp1nhp-dtEFAvrkHFvc",
+    },
+    "stage": {
+      "baseUrl": "https://mind-shelf-v2.herokuapp.com/",
+      "token": ""
+    }
+  }
+}
